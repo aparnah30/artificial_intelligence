@@ -13,7 +13,6 @@ class Node:
     def get_probability(self, conditions):
         return self.probabilities.get(conditions)
 
-
 def predict_student_performance(difficulty, intelligence):
     # Create nodes
     grade = Node('grade')
